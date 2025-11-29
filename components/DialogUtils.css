@@ -1,0 +1,74 @@
+
+/* Dialog Utils */
+
+/* border light blue */
+.border-light-blue {
+  border: 2px solid #90caf9;
+  border-radius: 12px;
+}
+
+/* changing scrim and dialog transition */
+.v-overlay__scrim { 
+    transition-duration: .6s !important;
+}
+
+/* dialog transition enter */
+.dialog-transition-enter-from {
+  opacity: 0 !important;
+  transform: translateY(10px) !important;
+}
+
+.dialog-transition-enter-active {
+  transition-duration: 0.2s !important; 
+  transition-timing-function: ease-in !important;
+}
+
+/* dialog transition leave */
+.dialog-transition-leave-active {
+  transition-duration: .6s !important;
+  transition-timing-function: ease-out !important;
+}
+
+.dialog-transition-leave-from {
+  opacity: 1 !important;
+  transform: translateY(10px) !important;
+}
+
+.dialog-transition-leave-to {
+  opacity: 0 !important;
+  transform: translateY(-60px) !important;
+}
+
+/* v-divider border color light blue */
+.v-divider.border-light-blue {
+  border-color: #6eadff !important;
+}
+
+.background-light-blue {
+  background-color: #E3F2FD !important;
+}
+
+.v-navigation-drawer {
+  background-color: #E3F2FD !important;
+}
+
+
+html, body, #app, #inspire {
+  height: 100%;
+  width: 100%;
+  overflow: hidden !important;
+}
+
+.v-main {
+  overflow: auto !important;
+}
+
+.v-main::-webkit-scrollbar {
+  display: none;
+}
+
+.v-main {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
